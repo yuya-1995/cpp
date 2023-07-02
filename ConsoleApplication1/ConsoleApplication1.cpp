@@ -4,6 +4,12 @@ using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    double num;
+
+    cout << "円周率の値はいくつですか？\n";
+    cin >> num;
+    cout << "円周率の値は" << num << "です。\n";
+
+    return 0;
 }
 
