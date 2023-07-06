@@ -14,7 +14,7 @@ int main()
 	cin >> line;
 	cout << "三角形の面積は" << line * height / rule << "です\n";*/
 
-	int num1, num2, num3, num4, num5;
+	/*int num1, num2, num3, num4, num5;
 	int total;
 	double ave;
 	for (int i = 1; i <=  5; i++)
@@ -44,7 +44,69 @@ int main()
 			cout << "平均点" << ave << "\n";
 
 		}
+	}*/
+
+	//int res;
+
+	/*cout << "整数を入力してください\n";
+	cin >> res;
+
+	switch (res)
+	{
+	case 1:
+		cout << "1が入力されました\n";
+	default:
+		cout << "1以外が入力されました\n";
+		break;
+	}*/
+
+	/*int res;
+	cout << "整数を入力してください\n";
+	cin >> res;
+
+	char ans = (res == 1) ? 'A' : 'B';
+
+	cout << ans;*/
+
+	/*int res;
+	cout << "整数を入力してください\n";
+	cin >> res;
+	if (res == 0) 
+	{
+		cout << res << "は判定不能です\n";
 	}
+	else if (res % 2 == 0)
+	{
+		cout << res << "は偶数です\n";
+
+	}
+	else
+	{
+		cout << res << "は奇数です\n";
+
+	}*/
 	
+	int num1;
+	int num2;
+
+	cout << "2つの整数を入力してください。\n";
+	cin >> num1;
+	cin >> num2;
+	if (num1 == num2)
+	{
+		cout << "2つの整数は同じです。\n";
+	}
+	else if(num1 > num2)
+	{
+		cout << num1 << "の方が大きい\n";
+	}
+	else 
+	{
+		cout << num2 << "の方が大きい\n";
+
+	}
+		 
+
+
 }
 
